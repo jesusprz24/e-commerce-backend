@@ -18,13 +18,13 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
     - `npm init`
     - `npm i mysql2`
     - `npm i sequelize`
-    - npm i dotenv`
+    - `npm i dotenv`
 3. Run the command `mysql -u root -p
 4. Enter password
 5. Then npm run seed
 
 # Usage
-This will be used for a backend E commerce website, to make it presentable and to complete with other E commerce websites.
+This will be used for a backend E commerce website, to make it presentable and to compete with other E commerce websites.
 
 # Technology Used
 - Node.js
