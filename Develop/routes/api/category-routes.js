@@ -73,7 +73,7 @@ router.delete('/:id', async (req, res) => {
       },
     });
     res.status(200).json('The category has been removed', categoryData);
-  } catch {
+  } catch (err) {
     console.error(err);
     res.status(500).json(err);
   }
