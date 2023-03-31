@@ -21,7 +21,8 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
     - `npm i dotenv`
 3. Run the command `mysql -u root -p
 4. Enter password
-5. Then npm run seed
+5. Then npm run seed `npm run seed`
+6. Finally start the server.js file `npm start`
 
 # Usage
 This will be used for a backend E commerce website, to make it presentable and to compete with other E commerce websites.
@@ -31,8 +32,6 @@ This will be used for a backend E commerce website, to make it presentable and t
 - Express.js
 - Object Relational Mapping (ORM)
 - MySQL2
-
-# Screenshot
 
 # Walkthrough Video
 
