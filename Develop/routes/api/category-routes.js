@@ -41,6 +41,7 @@ router.post('/', async (req, res) => {
         id: req.params.id,
       },
     });
+    res.status(200).json(categoryData);
   } catch {
     console.error(err);
     res.status(500).json(err);
