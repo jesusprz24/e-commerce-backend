@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-
+// get request used to find a single category by it's id
 router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
@@ -33,6 +33,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+// post request, when activated code will create a new category with sequelize ORM
 router.post('/', async (req, res) => {
   // create a new category
   try {
@@ -49,6 +50,7 @@ router.post('/', async (req, res) => {
  
 });
 
+// put request, when triggered code will update an existing category in the db 
 router.put('/:id', async (req, res) => {
   // update a category by its `id` value
   try {
@@ -64,6 +66,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
+// delete request, when triggered this will delete the existing code in the db
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value
   try {
