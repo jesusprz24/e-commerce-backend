@@ -14,15 +14,8 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
 
 # Installation
 1. First you must clone the repository into your terminal. Both Node.js and MySQL need to be installed on your local machine.
-2. Install the necessary dependencies
-    - `npm init`
-    - `npm i mysql2`
-    - `npm i sequelize`
-    - `npm i dotenv`
-3. Run the command `mysql -u root -p
-4. Enter password
-5. Then npm run seed `npm run seed`
-6. Finally start the server.js file `npm start`
+2. Make sure the necessary dependencies are installed 
+3. Run the command `npm run start` should prompt you to go to the localhost 3001
 
 # Usage
 This will be used for a backend E commerce website, to make it presentable and to compete with other E commerce websites.
