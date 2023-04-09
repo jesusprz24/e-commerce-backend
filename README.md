@@ -27,6 +27,7 @@ This will be used for a backend E commerce website, to make it presentable and t
 - MySQL2
 
 # Walkthrough Video
+https://drive.google.com/file/d/1QymXL0Ca7oBNIDFxR83a8m7pHRZftgvF/view
 
 # License
 This application is licensed under MIT
